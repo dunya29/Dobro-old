@@ -457,6 +457,12 @@ body {
 #admin-table::-webkit-scrollbar-thumb {
     background: #B71351;
 }
+table.dataTable thead th, table.dataTable thead td {
+    padding: 9px;
+}
+table.dataTable thead > tr > th.sorting, table.dataTable thead > tr > th.sorting_asc, table.dataTable thead > tr > th.sorting_desc, table.dataTable thead > tr > th.sorting_asc_disabled, table.dataTable thead > tr > th.sorting_desc_disabled, table.dataTable thead > tr > td.sorting, table.dataTable thead > tr > td.sorting_asc, table.dataTable thead > tr > td.sorting_desc, table.dataTable thead > tr > td.sorting_asc_disabled, table.dataTable thead > tr > td.sorting_desc_disabled {
+    padding-right: 25px;
+}
 @media (max-width: 991.98px){
     .file-form__body p {
       font-size: 14px;
