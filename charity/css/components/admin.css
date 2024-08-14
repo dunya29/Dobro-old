@@ -1,0 +1,152 @@
+.admin__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.admin__subtitle {
+  display: block;
+  font-size: 22px;
+  margin-top: 5px;
+}
+.admin__table .dataTables_wrapper .dataTables_paginate .paginate_button {
+  background: none;
+  border-radius: 5px;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.admin__table .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  background: #020202;
+  color: #ffffff !important;
+}
+.admin__table button.dt-button, .admin__table div.dt-button, .admin__table a.dt-button, .admin__table input.dt-button {
+  background: none;
+  border-radius: 5px;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.admin__table button.dt-button:hover, .admin__table div.dt-button:hover, .admin__table a.dt-button:hover, .admin__table input.dt-button:hover {
+  background: #22a019;
+  color: #ffffff !important;
+  border: 1px solid #22a019;
+}
+.admin__table a {
+  color: #FF4D1C;
+  text-decoration: underline;
+}
+.admin__table a:hover {
+  color: #020202;
+}
+.admin__table .dataTables_info {
+  display: none;
+}
+.admin__table td {
+  border-bottom: 1px solid #aeaeae !important;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #333333;
+  padding: 15px 10px;
+}
+.admin__table td:not(:last-child) {
+  border-right: 1px solid #e1e1e1;
+}
+.admin__table .dataTables_wrapper .dataTables_paginate {
+  margin-top: 15px;
+  float: none;
+  text-align: center;
+}
+.admin__table thead td {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.dataTables_wrapper .dataTables_filter {
+  margin-bottom: 20px;
+}
+
+table.dataTable {
+  margin: 0;
+  width: 100% !important;
+}
+
+.dataTables_filter {
+  position: relative;
+  z-index: 2;
+}
+
+.admin__moderate {
+  color: #103FE3 !important;
+}
+.admin__active {
+  color: #39ac08 !important;
+}
+.admin__cancel {
+  color: #FF0505 !important;
+}
+.admin-filter {
+  position: relative;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: -55px;
+}
+.admin-filter__item {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 190px 250px;
+  grid-template-columns: 190px 250px;
+  gap: 10px;
+}
+.admin-filter__item span {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: end;
+}
+.admin-filter__item select {
+  border: 1px solid #3344E5 !important;
+  border-radius: 3px;
+  color: #3344E5;
+  opacity: 0.8;
+}
+
+.admin__stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+.admin__stat {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+}
+.admin__stat > :last-child {
+  color: #103FE3;
+}
+
+.admin-fund:not(:first-child) {
+  margin-top: 40px;
+}
+.admin-fund__title {
+  font-size: 30px;
+  margin-top: 10px;
+}
+.admin-fund__sum td {
+  border-top: 1px solid #020202;
+  border-bottom: 1px solid #020202 !important;
+  background: #ebedff;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
